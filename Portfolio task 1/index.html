@@ -1,0 +1,431 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+	<meta charset="UTF-8"> 
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0"> 
+	<title>My Portfolio</title> 
+	<link rel="stylesheet"
+		href= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+		integrity= 
+"sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+			crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+	<link rel="stylesheet" href="style.css"> 
+	<link rel="stylesheet" href="responsive.css"> 
+</head> 
+
+<body> 
+	<!-- Navbar header section -->
+	<header class="header"> 
+		<nav class="navbar"> 
+			<div class="logo"> 
+				<h2 class="logo-heading">RESHMA</h2> 
+			</div> 
+			<div class="hamburger" id="hamburger"> 
+				<i class="fas fa-bars hamburger-icon"></i> 
+				<i class="fas fa-times cross-icon"></i> 
+			</div> 
+			<div class="menu"> 
+				<ul class="menu-list"> 
+					<li class="menu-list-items"> 
+						<a class="links" href="#home"> 
+							Home 
+						</a> 
+					</li> 
+					<li class="menu-list-items"> 
+						<a class="links" href="#about"> 
+							About
+						</a> 
+					</li> 
+					<li class="menu-list-items"> 
+						<a class="links" href="#portfolio"> 
+							Portfolio
+						</a> 
+					</li> 
+					<li class="menu-list-items"> 
+						<a class="links" href="#services"> 
+							Services 
+						</a> 
+					</li> 
+					<li class="menu-list-items"> 
+						<a class="links" href="#contact"> 
+							Contact Me 
+						</a> 
+					</li> 
+				</ul> 
+			</div> 
+		</nav> 
+	</header> 
+
+	<!-- Main hero banner -->
+	<section id="home" class="hero"> 
+		<div class="intro"> 
+			<div class="headings"> 
+				<h3 class="greet-heading">Hello, I'm</h3> 
+				<h1 class="my-heading">SAHUKAR RESHMA</h1> 
+				<h4 class="sub-heading"> 
+					A Web Developer and Data Science intern.  
+				</h4> 
+			</div> 
+			<div class="intro-buttons"> 
+				<button class="btn common-btn">Hire Me</button> 
+				<button class="btn ghost-btn">Get Resume</button> 
+			</div> 
+		</div> 
+	</section> 
+
+	<!-- Portfolio Section -->
+	<section class="portfolio" id="portfolio"> 
+		<div class="portfolio-heading"> 
+			<h1 class="my-heading text-center">Featured Portfolio</h1> 
+		</div> 
+		<div class="portfolio-content"> 
+			<div class="my-row"> 
+				<div class="my-col"> 
+					<div class="my-card port-card"> 
+						<div class="image"> 
+							<img src="https://1.bp.blogspot.com/-cBT92F1Rq1A/XPqbZuMrZpI/AAAAAAAAGaI/NHFuQiyKRhcrm1_e9DJHJ7ZS_aTan0G_ACLcBGAs/s1600/calsi.JPG"
+								alt="calculator Image"> 
+						</div> 
+						<h3 class="greet-heading blue-text">Calculator Designing</h3> 
+						<p class="small-para blue-text">Designing</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card port-card"> 
+						<div class="image"> 
+							<img src="https://www.danielhonrade.com/wp-content/uploads/2020/09/Web-development-1.jpg"
+								alt="Web Development Image"> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							Web Development 
+						</h3> 
+						<p class="small-para blue-text">Development</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card port-card"> 
+						<div class="image"> 
+							<img src="https://eduguide.co.in/wp-content/uploads/2020/12/data-science...jpg" alt="Data Science Image"> 
+						</div> 
+						<h3 class="greet-heading blue-text">Data Science</h3> 
+						<p class="small-para blue-text">Analysis</p> 
+					</div> 
+				</div> 
+			</div> 
+			<div class="my-row"> 
+				<div class="my-col"> 
+					<div class="my-card port-card"> 
+						<div class="image"> 
+							<img src="https://spectrum.ieee.org/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yNTU3ODQyOC9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTY5MDEwMDg4MH0.QEatMRXl6pomCGlJusmBLPw6x5z6AEaZTWmZNgYlYSA/image.jpg?width=1200&height=900"
+								alt="Programming Image"> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							Programming Languages
+						</h3> 
+						<p class="small-para blue-text">Computational Programming</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card port-card"> 
+						<div class="image"> 
+							<img src="https://blogger.googleusercontent.com/img/a/AVvXsEgfdlmIF06B7EvXEhVjY12r6GwGXWlj0iTMzd_1TRx6ZLnFPKSowOpeOcUFvb9jOVLWrTdp_3WaIwvN5BHDwLTZfAyrvctDfF4vMKyesQ_DloE-vHc1ZLrZ8G4JcrLjnxyRIxbuD_aDgBj77BORAuwUBwV3YIKDnewAwrIZ49NzKCTNbdZI57WfooqmJg=s16000"
+								alt="Registration page Image"> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							Registration Page 
+						</h3> 
+						<p class="small-para blue-text"> 
+							A Platform to fill the details.
+						</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card port-card"> 
+						<div class="image"> 
+							<img src="https://static.vecteezy.com/system/resources/previews/011/277/903/original/login-screen-modern-login-page-design-illustration-template-free-vector.jpg"
+								alt="Login page Image"> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							Login Page
+						</h3> 
+						<p class="small-para blue-text">Signing  the Page</p> 
+					</div> 
+				</div> 
+			</div> 
+		</div> 
+	</section> 
+
+	<!-- About Section -->
+	<section id="about" class="about"> 
+		<div class="about-text"> 
+			<h1 class="my-heading">About Me</h1> 
+			<p class="lead-para"> 
+				Welcome to my personal portfolio! I'm highly motivated and ambitious student currently enrolled at Andhra University collge of Engineering,
+                where I am actively pursuring my education with a keen focus on both theoretical understanding and practical application in the field of coding
+                and Technology.<br>
+			</p> 
+			<p> 
+				Driven by a passion for innovation and problem-solving, I am dedicated to continuously expanding my skill set and staying 
+                abreast of the latest developments in the ever-evolving landscape of technology.
+			</p> 
+            <br>
+		</div> 
+
+
+        <div class="tab-titles">
+            <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('internships')">Internships</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+
+        </div>
+
+
+        <div class="tab-contents active-tab" id="skills">
+            <ul>
+                <li><span>Web Development</span><br>Web App Development</li>
+                <li><span>Data Science</span><br>AI and ML</li>
+                <li><span>Programming</span><br>C,C++,JAVA,PYTHON,HTML,CSS,JAVASCRIPT</li>
+                
+            </ul>
+        </div>
+
+        <div class="tab-contents" id="internships">
+            <ul>
+                <li><span>5th may,2024</span><br>Web Development at codsoft</li>
+                <li><span>20th april,2024</span><br>Data Science at 1Stop.ai</li>
+                <li><span>1st june,2024</span><br>Web Development at Technohacks</li>
+            </ul>
+        </div>
+
+        <div class="tab-contents" id="education">
+            <ul>
+                <li><span>2022</span><br>Bachelor of Technology at Andhra University</li>
+                <li><span>2021</span><br>Intermediate at Sri Chaitanya </li>
+                <li><span>2020</span><br>Secondary School at Mahati</li>
+            </ul>
+        </div>
+
+		<div class="about-image"> 
+			<img src="https://wallpapercave.com/wp/wp6212675.jpg" alt="About Image"> 
+		</div> 
+	</section> 
+
+	<!-- Services Section -->
+	<section class="services" id="services"> 
+		<div class="services-heading"> 
+			<h1 class="my-heading text-center">My Services</h1> 
+		</div> 
+		<div class="services-content"> 
+			<div class="my-row"> 
+				<div class="my-col"> 
+					<div class="my-card"> 
+						<div class="icon"> 
+							<i class="fas fa-calculator"></i> 
+						</div> 
+						<h3 class="greet-heading blue-text">Calculator</h3> 
+						<p class="small-para"> 
+							The html will be pretty simple for this project. We'll start out with a standard HTML5 boilerplate. At the bottom of our body I included the index.js script that we will create later. This needs to be at the bottom, because this way, when our javascript runs, the html elements required for the calculator will be in the DOM. 
+						</p> 
+						<p class="small-para"> 
+							Basic knowledge of HTML, CSS, and JavaScript. A code editor of your choice. Create a new folder for your project, project name as per your wish I have created a project name called Calculator and inside it, create three files: index.html, style.css, and script.js. These files will serve as the foundation for your calculator.
+						</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card"> 
+						<div class="icon"> 
+							<i class="fa-solid fa-code"></i> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							Web Development 
+						</h3> 
+						<p class="small-para"> 
+							Web development refers to the creating, 
+							building, and maintaining 
+							of websites. It includes aspects such as 
+							web design, web publishing, 
+							web programming, and database management. 
+							It is the creation of an 
+							application that works over the internet 
+							i.e. websites. 
+						</p> 
+						<p class="small-para"> 
+                            The word itself says the construction of web. As you asked about practical view, I give you an example. Approximately radio communication took about 50 years to reach the mass, T.V. about 37 years, mobile phones 10-15 years and the internet and web... 5-6yrs! So you can imagine that how powerful and important the web target is.
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card"> 
+						<div class="icon"> 
+							<i class="fas fa-box"></i> 
+						</div> 
+						<h3 class="greet-heading blue-text">Data Science</h3> 
+						<p class="small-para"> 
+							Data science is defined as an interdisciplinary field that involves extracting knowledge and insights from data using scientific methods, algorithms, and systems. 
+                            Data Science combines elements of mathematics, statistics, computer science, and domain expertise to analyze large volumes of structured and unstructured data.
+                             
+						</p> 
+						<p class="small-para"> 
+							The goal of data science is to uncover patterns, trends, and relationships within the data to make informed decisions, solve complex problems, and create predictive models.
+						</p> 
+					</div> 
+				</div> 
+			</div> 
+			<div class="my-row"> 
+				<div class="my-col"> 
+					<div class="my-card"> 
+						<div class="icon">
+                            <i class="fas fa-quote-left"> </i> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							Programming Languages
+						</h3> 
+						<p class="small-para"> 
+							Computer programming language, any of various languages for expressing a set of detailed instructions for a computer. 
+                            The earliest programming languages were assembly languages, not far removed from instructions directly executed by hardware. 
+                            Although there are many computer languages, relatively few are widely used.
+							
+							
+						</p> 
+						<p class="small-para"> 
+							Developers commonly use Go, an open-source coding language created by Google employees, for back-end and front-end development.
+						</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card"> 
+						<div class="icon"> 
+							<i class="fas fa-pen"></i> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							Registration page
+						</h3> 
+						<p class="small-para"> 
+							Creating a registration or a sign-up page does not need to start from scratch. Pick from the ready-to-use layouts that fit your website theme best, and go from there.
+                             On top of that, if you would like to modify any of these free registration form templates, by all means, make it happen.
+						</p> 
+						<p class="small-para"> 
+							Transformation: The method used to align the secondary image to the primary image.
+						</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card"> 
+						<div class="icon"> 
+							<i class="fas fa-key"></i> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							Login Page 
+						</h3> 
+						<p class="small-para"> 
+							Login Page Design is a login page for a postgraduate management system.
+                             With clear, beautiful gradients, the interface offers excellent readability.
+                             The way the colors are used add vitality to the interface. 6. Housy-Login Page Example Designer=Divan Raj
+						</p> 
+						<p class="small-para"> 
+							Housy-Login Page Example is a neat and clean design with a great color combination for gradients, providing users with an enjoyable visual experience.
+						</p> 
+					</div> 
+				</div> 
+			</div> 
+		</div> 
+	</section> 
+
+	<!-- Contact me section -->
+	<section class="contact" id="contact"> 
+		<div class="contact-heading"> 
+			<h1 class="my-heading text-center">Contact Me</h1> 
+		</div> 
+		<div class="contact-content"> 
+			<div class="contact-form-container"> 
+				<h1 class="greet-heading">Get In Touch</h1> 
+				<form class="contact-form"> 
+					<input class="form-controls" type="text"
+						placeholder="Your Name"> 
+					<input class="form-controls" type="text"
+						placeholder="Your Email"> 
+					<input class="form-controls" type="text"
+						placeholder="Your Phone"> 
+					<textarea class="form-controls"
+							placeholder="Write your message"
+							name="message" id="" cols="30"
+							rows="10"> 
+					</textarea> 
+					<input class="form-btn btn common-btn"
+						type="submit" value="Send Message"> 
+				</form> 
+			</div> 
+			<div class="contact-details"> 
+				<h1 class="greet-heading">My Contact Details</h1> 
+				<div class="details"> 
+					<h5 class="contact-heading">EMAIL :</h5> 
+                    <font-color : white;>
+					<p class="contact-text">sahukarreshma123@gmail.com</p> 
+				</div> 
+				<div class="details"> 
+					<h5 class="contact-heading">PHONE NUMBER:</h5> 
+					<p class="contact-text">+91 7793921064</p> 
+				</div> 
+				<div class="details"> 
+					<h5 class="contact-heading">FAX</h5> 
+					<p class="contact-text">+91 7793921064</p> 
+				</div> 
+				<div class="details"> 
+					<h5 class="contact-heading">ADDRESS</h5> 
+					<p class="contact-text">Vizay, Andhra Pradesh</p> 
+					<p>Santosh nagar</p> 
+					<p>Pendurthi-530051</p> 
+                </font-color>
+				</div> 
+			</div> 
+		</div> 
+	</section> 
+
+	<!-- Footer section -->
+	<footer class="footer"> 
+		<div class="footer-content text-center"> 
+			<h4> 
+				Copyright © 2023 All rights reserved | 
+				
+			</h4> 
+			<div class="social-links"> 
+				<div class="footer-menu"> 
+					<ul class="footer-menu-list"> 
+						<li class="footer-list-items"> 
+							<a class="footer-links" href="#"> 
+								<i class="fab fa-facebook-f"></i> 
+							</a> 
+						</li> 
+						<li class="footer-list-items"> 
+							<a class="footer-links" href="#"> 
+								<i class="fab fa-twitter"></i> 
+							</a> 
+						</li> 
+						<li class="footer-list-items"> 
+							<a class="footer-links" href="#"> 
+								<i class="fab fa-instagram"></i> 
+							</a> 
+						</li> 
+						<li class="footer-list-items"> 
+							<a class="footer-links" href="#"> 
+								<i class="fab fa-linkedin-in"></i> 
+							</a> 
+						</li> 
+					</ul> 
+				</div> 
+			</div> 
+		</div> 
+	</footer> 
+
+	<script src= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+		integrity= 
+"sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"> 
+	</script> 
+	<script src="script.js"></script> 
+</body> 
+
+</html>
